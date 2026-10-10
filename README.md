@@ -84,4 +84,4 @@ powershell -ExecutionPolicy Bypass -File .\构建.ps1
 
 ### 方式三：Visual Studio
 
-用 VS 2019/2022 直接打开 `FileRenamer\FileRenamer.csproj`（SDK 风格项目，无需 .sln）。
+用 VS 2019/2022 直接打开 `FileRenamer\FileRenamer.csproj`（无需 .sln）。
