@@ -1,0 +1,49 @@
+# ---------------- 构建产物 ----------------
+# 只忽略仓库根目录的 exe；FileRenamer/bin/FileRenamer.exe 是随仓库分发的成品，不忽略
+/*.exe
+FileRenamer/bin/*.pdb
+FileRenamer/bin/*.exe.config
+FileRenamer/bin/*.xml
+FileRenamer/obj/
+
+# 编译脚本使用的本地 dotnet HOME（受限环境下需要可写目录）
+.dsh-dotnet-home/
+.dsh-nuget-packages/
+.dsh-*/
+.nuget/
+
+# ---------------- Visual Studio / Rider ----------------
+.vs/
+.idea/
+*.user
+*.suo
+*.userprefs
+*.DotSettings.user
+*.sln.docstates
+
+# ---------------- .NET 中间产物 ----------------
+*.pdb
+*.cache
+*.tlog
+*.binlog
+project.assets.json
+*.nuget.g.props
+*.nuget.g.targets
+*.nuget.dgspec.json
+*.nuget.cache
+*.GeneratedMSBuildEditorConfig.editorconfig
+*.AssemblyInfo.cs
+*.AssemblyAttributes.cs
+
+# ---------------- 系统垃圾文件 ----------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ---------------- 临时文件 ----------------
+*.tmp
+*.bak
+*~
+*.log

@@ -1,6 +1,9 @@
 # Batch-rename-files
 文件批量重命名工具——
 基于 .NET Framework 4.8 + WinForms，单个 exe，无第三方依赖，无需安装。
+
+![界面截图](docs/after.png)
+
 ---
 
 ## 功能
